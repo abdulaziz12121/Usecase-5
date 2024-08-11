@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.image("image\image.jpg")
+st.image("image.jpg")
 
 st.markdown(
     """
@@ -23,7 +23,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("image\image3.jpg")
+st.image("image3.jpg")
 
 
 # Using HTML and CSS to set text direction to right-to-left
@@ -50,7 +50,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.image("image\image1.png")
+st.image("image1.png")
 #-----------------------------------------------------------------------
 
 # Using HTML and CSS to set text direction to right-to-left
@@ -70,7 +70,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.image("image\image2.png")
+st.image("image2.png")
 st.markdown(
     """
     <div style="direction: rtl;">
