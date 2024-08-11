@@ -8,13 +8,12 @@ st.image("image.jpg")
 st.markdown(
     """
    <div style="direction: rtl;">
-    <h1 style="font-weight: bold;">قصة اختيار تخصص الجامعة/h1>
+<h1 style="font-weight: bold;">قصة اختيار تخصص الجامعة</h1>              
               
               
-              
-                <p>        عمر :اخر سنة في الثانوية وما تعرف وش تدخل تخصص في الجامعة صح      </p>
-                <p>           عبدالعزيز: صح,كيف رواتب خرجي الجامعة بشكل عام     </p>
-                <p>      عمر: اعطيك العلم        </p>
+                <p>        عمر :اخر سنة في الثانوية وما تعرف وش تدخل تخصص في الجامعة صح      
+                          عبدالعزيز: صح,كيف رواتب خرجي الجامعة بشكل عام     
+                                                    عمر: اعطيك العلم        </p>
 
                 
 
@@ -23,7 +22,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("image3.jpg")
+st.image("image 3.png")
 
 
 # Using HTML and CSS to set text direction to right-to-left
