@@ -50,7 +50,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.image("image\image1.jpg")
+st.image("image\image1.png")
 #-----------------------------------------------------------------------
 
 # Using HTML and CSS to set text direction to right-to-left
@@ -71,73 +71,18 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.image("image\image2.png")
-#-----------------------------------------------------------------------
-
-# Using HTML and CSS to set text direction to right-to-left
 st.markdown(
     """
     <div style="direction: rtl;">
-       
-                <p>
-                عبدالعزيز : جميل, معلومات مفيدة جدا ,بدخل حاسب 
-                </p>
+        <h2> عبدالعزيز :طيب عطني اعلى  3 مناطق /h2>
+             <p >         عبدالعزيز : جميل, معلومات مفيدة جدا ,بدخل حاسب 
+      </p>
+             <p >               </p>
+             <p >               </p>
 
     </div>
     """,
     unsafe_allow_html=True
 )
-st.image("image3.png")
+
 #-----------------------------------------------------------------------
-
-# Using HTML and CSS to set text direction to right-to-left
-st.markdown(
-    """
-    <div style="direction: rtl;">
-        <h2>أفضل 5 علامات تجارية في الرياض/</h2>
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-st.image("image4.png")
-#-----------------------------------------------------------------------
-
-# Using HTML and CSS to set text direction to right-to-left
-st.markdown(
-    """
-    <div style="direction: rtl;">
-        <h2> أفضل 5 علامات تجارية في الدمام</h2>
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-st.image("image5.png")
-#-----------------------------------------------------------------------
-
-# Using HTML and CSS to set text direction to right-to-left
-st.markdown(
-    """
-    <div style="direction: rtl;">
-        <h2> أفضل 5 علامات تجارية في جدة</h2>
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-st.image("image6.png")
-#-----------------------------------------------------------------------
-
-# Using HTML and CSS to set text direction to right-to-left
-st.markdown(
-    """
-    <div style="direction: rtl;">
-        <h2> أفضل 5 علامات تجارية في القصيم</h2>
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-st.image("image7.png")
-
-
