@@ -28,7 +28,7 @@ st.image("image 3.png")
 # Using HTML and CSS to set text direction to right-to-left
 st.markdown(
     """
-    <div style="direction: rtl;">
+    
                 <p > عبدالعزيز : جميل  </p>
                 <p >  عمر :عطني طلباتك في التخصص </p>
                 <p >عبدالعزيز : اهم شي يكون مطلوب في سوق العمل </p>
@@ -45,7 +45,7 @@ st.markdown(
 
 
 
-    </div>
+   
     """,
     unsafe_allow_html=True
 )
