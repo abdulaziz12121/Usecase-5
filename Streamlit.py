@@ -29,21 +29,16 @@ st.image("image 3.png")
 st.markdown(
     """
     
-                <p > عبدالعزيز : جميل  </p>
-                <p >  عمر :عطني طلباتك في التخصص </p>
-                <p >عبدالعزيز : اهم شي يكون مطلوب في سوق العمل </p>
-                <p > عمر :اكثر التخصصات مطلوبة  </p>
+             <p style="direction: rtl;">عبدالعزيز: جميل</p>
+<p style="direction: rtl;">عمر: عطني طلباتك في التخصص</p>
+<p style="direction: rtl;">عبدالعزيز: اهم شي يكون مطلوب في سوق العمل</p>
+<p style="direction: rtl;">عمر: اكثر التخصصات مطلوبة</p>
 
-                
-                <p >        1-بائع            </p>
-                <p >        2.محاسب           </p>
-                <p >          3.أخصائي تسويق    </p>
-                <p >     4.مساعد إداري     </p>
-                <p >        5.موظف استقبال </p>
-
-
-
-
+<p style="direction: rtl;">1-بائع</p>
+<p style="direction: rtl;">2.محاسب</p>
+<p style="direction: rtl;">3.أخصائي تسويق</p>
+<p style="direction: rtl;">4.مساعد إداري</p>
+<p style="direction: rtl;">5.موظف استقبال</p>
 
    
     """,
