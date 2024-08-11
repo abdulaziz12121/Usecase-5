@@ -7,17 +7,11 @@ st.image("image.jpg")
 
 st.markdown(
     """
-   <div style="direction: rtl;">
-<h1 style="font-weight: bold;">قصة اختيار تخصص الجامعة</h1>              
-              
-              
-                <p>        عمر :اخر سنة في الثانوية وما تعرف وش تدخل تخصص في الجامعة صح      
-                          عبدالعزيز: صح,كيف رواتب خرجي الجامعة بشكل عام     
-                                                    عمر: اعطيك العلم        </p>
-
-                
-
-    </div>
+<h1 style="font-weight: bold; direction: rtl;">قصة اختيار تخصص الجامعة</h1>              
+    
+<p style="direction: rtl;">عمر: اخر سنة في الثانوية وما تعرف وش تدخل تخصص في الجامعة صح</p>
+<p style="direction: rtl;">عبدالعزيز: صح، كيف رواتب خرجي الجامعة بشكل عام</p>
+<p style="direction: rtl;">عمر: اعطيك العلم</p>
     """,
     unsafe_allow_html=True
 )
@@ -50,31 +44,20 @@ st.image("image1.png")
 # Using HTML and CSS to set text direction to right-to-left
 st.markdown(
     """
-    <div style="direction: rtl;">
-        <h2> عبدالعزيز :طيب عطني اعلى  3 مناطق /h2>
-             <p >         عمر : ابشر وهاذي اعلى 3 مناطق 
-الرياض             
-مكة المكرمة        
-المنطقة الشرقية 
-      </p>
-             <p >               </p>
-             <p >               </p>
-
-    </div>
+<h2 style="direction: rtl;"> عبدالعزيز: طيب عطني اعلى 3 مناطق </h2>
+<p style="direction: rtl;"> عمر: ابشر وهاذي اعلى 3 مناطق </p>
+<ul style="direction: rtl;">
+    <li>الرياض</li>
+    <li>مكة المكرمة</li>
+    <li>المنطقة الشرقية</li>
+</ul>
     """,
     unsafe_allow_html=True
 )
 st.image("image2.png")
 st.markdown(
     """
-    <div style="direction: rtl;">
-        <h2> عبدالعزيز :طيب عطني اعلى  3 مناطق /h2>
-             <p >         عبدالعزيز : جميل, معلومات مفيدة جدا ,بدخل حاسب 
-      </p>
-             <p >               </p>
-             <p >               </p>
-
-    </div>
+<p style="direction: rtl;">عبدالعزيز: جميل, معلومات مفيدة جدا, بدخل حاسب</p>
     """,
     unsafe_allow_html=True
 )
