@@ -44,7 +44,6 @@ st.image("image1.png")
 # Using HTML and CSS to set text direction to right-to-left
 st.markdown(
     """
-<h2 style="direction: rtl;"> عبدالعزيز: طيب عطني اعلى 3 مناطق </h2>
 <p style="direction: rtl;"> عمر: ابشر وهاذي اعلى 3 مناطق </p>
 <ul style="direction: rtl;">
     <li>الرياض</li>
